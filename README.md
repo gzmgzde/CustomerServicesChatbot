@@ -10,7 +10,7 @@ The implementation is designed for clarity, performance, and reproducibility, an
 
 - **Text Preprocessing**
   - Automated cleaning using Regular Expressions
-  - Lowercasing, punctuation removal, and stripping placeholders (e.g., `{{var}}`)
+  - Lowercasing, punctuation removal, and stripping placeholders
 
 - **Intent Recognition**
   - Classifies queries into **27 distinct intent categories**
@@ -68,7 +68,7 @@ The model was evaluated using an **80/20 train-test split**.
 
 ### 1. Data Cleaning
 - Converted all text to lowercase for consistency  
-- Removed punctuation and placeholder tokens (e.g., `{{variable}}`) to reduce noise and improve model generalization  
+- Removed punctuation and placeholder tokens to reduce noise and improve model generalization  
 
 ### 2. Vectorization
 - Transformed text data into numerical feature vectors using **TF-IDF (Term Frequency–Inverse Document Frequency)**
